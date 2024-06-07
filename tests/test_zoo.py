@@ -43,7 +43,14 @@ class TestZoo(TestCase):
         
         self.assertEqual(result, 1, message)
         
-    
+    #miei test
+
+    def test_francisco (self):
+        zookeeper_1: ZooKeeper = ZooKeeper(name="Gianni", surname="Rossi", id=1)
+        fence_1: Fence = Fence(area=100, temperature=25.0, habitat="Savana")
+        animal_1: Animal = Animal(name="Pluto", species="Canide", age=5, height=30.0, width=1.0, preferred_habitat="Savana")
+        
+
     
 
 
